@@ -10,7 +10,7 @@ const db = mysql.createConnection(dbconf)
 db.connect()
 
 app.get('/', (req, res) => {
-  res.json({result: '스마트앱프로그래밍 백엔드'})
+  res.json({result: '스마트앱프로그래밍 백엔드2222'})
 })
 
 app.get('/book', (req, res) => {
